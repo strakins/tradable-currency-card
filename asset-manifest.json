@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tradable-currency-card/static/css/main.3f86d243.css",
+    "main.js": "/tradable-currency-card/static/js/main.5bf4ecea.js",
+    "index.html": "/tradable-currency-card/index.html",
+    "main.3f86d243.css.map": "/tradable-currency-card/static/css/main.3f86d243.css.map",
+    "main.5bf4ecea.js.map": "/tradable-currency-card/static/js/main.5bf4ecea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f86d243.css",
+    "static/js/main.5bf4ecea.js"
+  ]
+}
