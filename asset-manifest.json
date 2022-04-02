@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/tradable-currency-card/static/css/main.3f86d243.css",
-    "main.js": "/tradable-currency-card/static/js/main.5bf4ecea.js",
+    "main.css": "/tradable-currency-card/static/css/main.fa79e233.css",
+    "main.js": "/tradable-currency-card/static/js/main.d5f91286.js",
+    "static/media/gift_card_1.webp": "/tradable-currency-card/static/media/gift_card_1.672ac440be27e57c456b.webp",
     "index.html": "/tradable-currency-card/index.html",
-    "main.3f86d243.css.map": "/tradable-currency-card/static/css/main.3f86d243.css.map",
-    "main.5bf4ecea.js.map": "/tradable-currency-card/static/js/main.5bf4ecea.js.map"
+    "main.fa79e233.css.map": "/tradable-currency-card/static/css/main.fa79e233.css.map",
+    "main.d5f91286.js.map": "/tradable-currency-card/static/js/main.d5f91286.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f86d243.css",
-    "static/js/main.5bf4ecea.js"
+    "static/css/main.fa79e233.css",
+    "static/js/main.d5f91286.js"
   ]
 }
