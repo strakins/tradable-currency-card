@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
+import gift_card from '../assets/gift_card_1.webp'
 
 const Cards = () => {
 
@@ -609,14 +610,22 @@ const Cards = () => {
       {
         allGiftCards.map((card) => (
           <>
-              <Card style={{ width: 'auto', height: '200px' }} className='cards mb-2' key={card.id}>
+              <Card style={{ width: '20rem', height: 'auto' }} className='cards mb-2' key={card.id}> 
+                <img src={gift_card} className="card-img-top" alt="" />
                   <Card.Body>
-                    <Card.Title className='fs-3 text-danger'> {card.title} </Card.Title>
-                    <Card.Text className='pt-3'>
-                      {card.currencies.join(',  ').toLocaleUpperCase()}
+                    <Card.Title className='fs-3 text-danger p-2 fw-bold border-bottom border-3 border-success'> {card.title} </Card.Title>
+                    <Card.Text className='pt-3 items'>
+                      {card.currencies.map((currency, index) => {
+                        return (
+                          <div key={index} className='mx-2 mb-2'>
+                            <h5 className='btn btn-outline-success text-uppercase'>{currency}</h5>
+                          </div>
+                        )
+                      })}
                     </Card.Text>
                   </Card.Body>
               </Card>
+  
           </>
         ))
       }
