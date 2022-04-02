@@ -610,7 +610,7 @@ const Cards = () => {
       {
         allGiftCards.map((card) => (
           <>
-              <Card style={{ width: '20rem', height: 'auto' }} className='cards mb-2' key={card.id}> 
+              <Card style={{ width: '18rem', height: 'auto' }} className='cards mb-2' key={card.id}> 
                 <img src={gift_card} className="card-img-top" alt="" />
                   <Card.Body>
                     <Card.Title className='fs-3 text-danger p-2 fw-bold border-bottom border-3 border-success'> {card.title} </Card.Title>

@@ -2,14 +2,13 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-
 }
 .cards{
   background: slateblue;
 }
 .items {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media (max-width: 1024px) {
@@ -19,18 +18,33 @@
     margin-left: -4em;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .card-holder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* margin-left: -1em; */
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (max-width: 425px) {
   .card-holder {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: -4em;
+    margin-left: -3rem;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 320px) {
+  .card-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -5em;
   }
   .items {
     display: grid;
